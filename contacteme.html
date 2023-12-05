@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/estilo.css">
+    <link rel="stylesheet" href="CSS/contacto.css">
     <title>Document</title>
 </head>
 <body>
@@ -26,26 +27,29 @@
     </div>
    <!--Aqui colocamos el cuerpo del index-->
    <div id="cuerpoContenido" >
-    <div id="cuerpoImagen">
-        <div id="bordeImagen" >
-            <img src="/img/imagen12.png" height="400" width="480"> 
-        </div>
-
-    </div>
-    <div id="cuerpoDetalle">
-        <h1>bienvenido</h1>
-        <div id="datosDetalle">
-            <p> Esperamos que tu primer día sea emocionante.
-                Bienvenido a Encuadrado, ¡qué alegría que seas parte del equipo!
-                ¡Enhorabuena por formar parte del equipo! ¡Toda la compañía le da la bienvenida, y esperamos un viaje exitoso con usted! ¡Bienvenido a bordo!</p>
-
-        </div>
-        <div id="Botones">
-            <div id="botonFavorito"><div id="marcoFavorito" class="disenoBoton">Mi persona favorito</div> </div>
-            <div id="botonUbicacion"><div id="marcoUbicacion" class="disenoBoton"> Mi ubicacion</div></div>
-        </div>
-     
-    </div>
+   <div id="formularioDatos">
+    <fieldset>
+        <legend>Mis Datos</legend>
+        <form>
+            <label>Nombre</label>
+            <input type="text" placeholder="Ingrese Su nombre">
+            <label>Apellido</label>
+            <input type="text" placeholder="Ingrese Su Apllido">
+            <label>Edad</label>
+            <input type="number">
+            <select>
+                <option value="cbba">Cochabamba</option>
+                <option value="lp">La Paz</option>
+                <option value="scr">Sucre</option>
+                <option value="oru">Oruro</option>
+                <option value="sc">Santa Cruz</option>
+            </select>
+            <label>Descripcion</label>
+            <textarea></textarea>
+            <input type="botton" value="INSERTAR" >
+        </form>
+    </fieldset>
+   </div>
   
     
   </div>
